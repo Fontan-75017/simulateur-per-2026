@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Simulateur PER 2026 | Maubourg Patrimoine</title><meta name="description" content="Estimez votre plafond de déduction PER 2026, votre versement et votre économie d’impôt avec Maubourg Patrimoine."><style>
+:root{font-family:Montserrat,Arial,sans-serif;color:#0b1b50;background:#fff}*{box-sizing:border-box}body{margin:0}#mp-per{max-width:1100px;margin:auto;padding:24px 18px 42px;font-size:15px;line-height:1.6}#mp-per .hero{background:#081b81;color:#fff;text-align:center;padding:36px 22px;border-radius:16px;margin-bottom:20px}#mp-per .hero p:first-child{letter-spacing:1px;font-size:13px}#mp-per h1{font-size:36px;font-weight:500;margin:8px 0}#mp-per h2{font-size:24px;color:#081b81;font-weight:500;margin:0 0 10px}#mp-per h3{font-size:19px;color:#99814c;font-weight:500;margin:20px 0 8px}#mp-per .hero h1,#mp-per .cta h2{color:#fff}#mp-per .panel{border:1px solid #d8e0f3;border-radius:15px;padding:24px;margin-bottom:18px}#mp-per .panel p{margin:6px 0 12px}#mp-per .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}#mp-per label{display:block;font-weight:600;font-size:13px;margin-bottom:5px}#mp-per input,#mp-per select{display:block;width:100%;padding:12px;border:1px solid #bfcae7;border-radius:8px;background:white;color:#0b1b50;font:inherit;min-height:48px}#mp-per input:focus,#mp-per select:focus{outline:2px solid #99814c;outline-offset:1px}#mp-per .hint,#mp-per .sub{font-size:13px;color:#6b7caa}#mp-per .results{padding:24px;border-radius:15px;background:#eef0ff;margin-bottom:20px}#mp-per .metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:12px 0}#mp-per .metric{background:#fff;padding:16px;border-radius:10px;font-size:13px;min-height:94px}#mp-per .metric strong{display:block;color:#081b81;font-size:23px;margin-top:10px}#mp-per .compare{height:12px;border-radius:9px;background:#dce2f7;overflow:hidden;margin-top:14px}#mp-per #benefitBar-2{display:block;height:100%;width:0;background:#99814c;transition:width .2s}#mp-per .barlegend{display:flex;justify-content:space-between;gap:10px;font-size:13px;margin-top:7px}#mp-per .warning{color:#865e18;font-size:13px}#mp-per .error{color:#9d2222;font-weight:600}#mp-per .action{background:#99814c;color:white;text-decoration:none;border:0;border-radius:8px;padding:14px 22px;display:inline-block;cursor:pointer;font:inherit}#mp-per details{border-bottom:1px solid #dce2f0;padding:12px 0}#mp-per summary{font-weight:600;cursor:pointer}#mp-per .cta{background:#081b81;color:#fff;border-radius:16px;text-align:center;padding:30px 24px;margin-bottom:18px}#mp-per .cta p{margin:12px 0 22px}#mp-per [hidden]{display:none!important}@media(max-width:650px){#mp-per .grid,#mp-per .metrics{grid-template-columns:1fr}#mp-per h1{font-size:28px}#mp-per .panel,#mp-per .results{padding:18px}}@media print{#mp-per .action{display:none}#mp-per .panel,#mp-per .results{break-inside:avoid}}
+</style></head><body>
+<main class="" data-gjs-type="default" data-highlightable="1" draggable="true" id="mp-per">
+<header class="hero" id="ih1x0b">
+<p id="i85vw9">MAUBOURG PATRIMOINE
+    </p>
+<h1 id="iefcf8">Simulateur PER 2026
+    </h1>
+<p class="" id="irpn39">Quel versement envisager avant le 31 décembre ? Estimez votre plafond de déduction et votre économie d’impôt.
+    </p>
+</header>
+<section class="panel" id="izflnz">
+<h2 id="ioz2kw">Calculez votre plafond PER et votre économie d’impôt
+    </h2>
+<p id="i8wa51">Renseignez les plafonds figurant sur votre avis d’impôt, puis indiquez votre situation fiscale et le versement envisagé. Les résultats sont indicatifs et ne constituent pas un conseil personnalisé.
+    </p>
+</section>
+<section class="panel" id="detailPanel-3">
+<h2 id="ifhn3m">Vos plafonds de déduction
+    </h2>
+<div class="grid" id="irjis2">
+<div id="iuvyms">
+<label for="status-3" id="ipjbbi">Situation</label>
+<select id="status-3"><option id="in7692" value="single">Calcul individuel</option><option id="i79rjx" value="couple">Couple marié ou pacsé : mutualisation</option></select>
+</div>
+<div id="i0761o">
+<label for="profile-3" id="ith0yk">Profil</label>
+<select id="profile-3"><option id="ialq3l" value="employee">Salarié, retraité ou autre</option><option id="in07ei" value="tns">Travailleur indépendant (TNS)</option></select>
+</div>
+</div>
+<p class="hint" id="ihcx0e">Pour les TNS, seul le plafond de déduction du revenu global est estimé. Le plafond professionnel spécifique (article 154 bis) n'est pas calculé.
+    </p>
+<h3 id="i7puag">Vos plafonds
+    </h3>
+<div class="grid" id="in219g">
+<div id="impejf">
+<label for="p26-3" id="ifo00o">Plafond annuel 2026 (€)</label>
+<input id="p26-3" min="0" placeholder="Ex. 4700" type="number"/>
+</div>
+<div id="i5plk7">
+<label for="p23-3" id="ixszen">Reliquat 2023 (€)</label>
+<input id="p23-3" min="0" type="number"/>
+</div>
+<div id="i6blkk">
+<label for="p24-3" id="iai7mv">Reliquat 2024 (€)</label>
+<input id="p24-3" min="0" type="number"/>
+</div>
+<div id="i0p68b">
+<label for="p25-3" id="i2z3ci">Reliquat 2025 (€)</label>
+<input id="p25-3" min="0" type="number"/>
+</div>
+</div>
+<div hidden="true" id="spouse-3">
+<h3 id="ik96sq">Plafonds du conjoint
+      </h3>
+<div class="grid" id="iwmvav">
+<div id="i5dkvv">
+<label for="s26-3" id="itau14">Plafond annuel 2026 (€)</label>
+<input id="s26-3" min="0" type="number"/>
+</div>
+<div id="itvj4y">
+<label for="s23-3" id="itohmx">Reliquat 2023 (€)</label>
+<input id="s23-3" min="0" type="number"/>
+</div>
+<div id="iovatj">
+<label for="s24-3" id="i9wjed">Reliquat 2024 (€)</label>
+<input id="s24-3" min="0" type="number"/>
+</div>
+<div id="i7z0xz">
+<label for="s25-3" id="irhz6t">Reliquat 2025 (€)</label>
+<input id="s25-3" min="0" type="number"/>
+</div>
+</div>
+</div>
+<h3 id="i1aa2t">Versements et fiscalité
+    </h3>
+<div class="grid" id="i7dhp2">
+<div id="ipvx34">
+<label for="already-3" id="icvz6k">Versements déductibles déjà effectués en 2026 (€)</label>
+<input id="already-3" min="0" type="number" value="0"/>
+</div>
+<div id="i0kgkq">
+<label for="income-3" id="iul724">Revenu net imposable estimé du foyer en 2026 (€)</label>
+<input id="income-3" min="0" placeholder="Ex. 85000" type="number"/>
+</div>
+<div id="iob4ii">
+<label for="parts-3" id="i0xcnb">Nombre de parts fiscales</label>
+<input id="parts-3" min="1" step="0.5" type="number" value="1"/>
+</div>
+</div>
+<p class="hint" id="inq9t9">Renseignez séparément le plafond annuel et les reliquats, sans recopier un total qui les comprend déjà. En cas de mutualisation, incluez les versements des deux conjoints.
+    </p>
+</section>
+<section class="panel" id="ihsu4h">
+<h2 id="il5owr">Votre objectif de versement
+    </h2>
+<div class="grid" id="ihav2g">
+<div id="ig8faj">
+<label for="goalMode-2" id="iwpx29">Quel résultat souhaitez-vous calculer ?</label>
+<select id="goalMode-2"><option id="iphhwu" value="full">Utiliser tout le plafond restant</option><option id="ir1apr" value="payment">Tester un versement déterminé</option><option id="ilq79j" value="saving">Atteindre une économie d’impôt cible</option></select>
+</div>
+<div hidden="true" id="goalPaymentBox-2">
+<label for="goalPayment-2" id="iztask">Versement envisagé (€)</label>
+<input id="goalPayment-2" min="0" placeholder="Ex. 10000" type="number"/>
+</div>
+<div hidden="true" id="goalSavingBox-2">
+<label for="goalSaving-2" id="i5elxj">Économie d’impôt souhaitée (€)</label>
+<input id="goalSaving-2" min="0" placeholder="Ex. 3000" type="number"/>
+</div>
+</div>
+</section>
+<section aria-live="polite" class="results" id="incxlp">
+<h2 class="" id="ivfdqg">Votre simulation
+    </h2>
+<p class="error" id="validation-2">
+</p>
+<div class="metrics" id="injsnk">
+<div class="metric" id="izjhh4">Plafond restant estimé
+        <strong id="remaining-2">—</strong>
+</div>
+<div class="metric" id="iksq6j">Versement complémentaire simulé
+        <strong id="payment-2">—</strong>
+</div>
+<div class="metric" id="i7sv0h">Économie d’impôt estimée
+        <strong id="saving-2">—</strong>
+</div>
+</div>
+<div class="metrics" id="igttz6-2">
+<div class="metric" id="ib68ee">Impôt théorique avant versement
+        <strong id="taxBefore-2">—</strong>
+</div>
+<div class="metric" id="if2c3c">Impôt théorique après versement
+        <strong id="taxAfter-2">—</strong>
+</div>
+<div class="metric" id="isjase">Effort d’épargne après avantage fiscal
+        <strong class="" id="netCost-2">—</strong>
+</div>
+</div>
+<div class="compare" id="iu5dl9">
+<span id="benefitBar-2"></span>
+</div>
+<div class="barlegend" id="ih1k7e">
+<span id="ittx0o">Part de l’effort fiscalement compensée (estimation)</span>
+<strong id="benefitPercent-2">—</strong>
+</div>
+<p class="sub" id="detail-2">
+</p>
+<p class="warning" id="expiry-2">
+</p>
+<p class="warning" id="goalWarning-2">
+</p>
+<p class="hint" id="ivxr8h">L’effort net est un indicateur fiscal (versement moins économie d’IR estimée), et non le coût économique définitif du PER. L’épargne est généralement indisponible jusqu’à la retraite et la sortie peut être imposable. Le barème est simplifié : décote, quotient familial plafonné, réductions et crédits d’impôt et contributions particulières ne sont pas modélisés.
+    </p>
+<button class="action" id="print-2" type="button">Imprimer ma simulation</button>
+</section>
+<section class="panel" id="ijj5qi">
+<h2 class="" id="iqy0gj">Questions fréquentes sur le PER
+    </h2>
+<details class="" id="i5t7wf">
+<summary class="" id="i8ekcx">Un versement PER donne-t-il une réduction d’impôt de 30 % ou 41 % ?
+      </summary>
+<p id="iuxs6k">Non : il ouvre une déduction du revenu imposable, sous conditions. L’économie réelle dépend du barème progressif et peut être inférieure à la tranche marginale multipliée par le versement.
+      </p>
+</details>
+<details class="" id="inzrgn">
+<summary class="" id="ihlfjf">Pourquoi distinguer les plafonds par année ?
+      </summary>
+<p id="iuyowd">Les reliquats ne sont pas reportables indéfiniment. Le mode détaillé permet d’identifier les montants 2023 susceptibles d’expirer fin 2026, après imputation prioritaire du plafond annuel.
+      </p>
+</details>
+<details class="" id="ifd29t">
+<summary class="" id="izhi9e">Le simulateur convient-il aux indépendants ?
+      </summary>
+<p id="ihz73b">Uniquement pour la déduction sur le revenu global. Le plafond professionnel spécifique des travailleurs indépendants nécessite un calcul distinct.
+      </p>
+</details>
+<details class="" id="il518t">
+<summary class="" id="iuweqh">Faut-il verser tout le plafond disponible ?
+      </summary>
+<p id="i1k80q">Pas nécessairement : la liquidité, les frais, les supports, l’horizon de retraite et la fiscalité à la sortie doivent être étudiés.
+      </p>
+</details>
+</section>
+<section class="cta" id="ixfp4f">
+<h2 class="" id="i8fj1w">Contacter Maubourg Patrimoine
+    </h2>
+<p class="" id="icev07">Vous souhaitez confirmer vos plafonds, optimiser votre versement et choisir une allocation adaptée ? Nos conseillers peuvent réaliser une étude personnalisée.
+    </p>
+<a class="action" href="https://www.maubourg-patrimoine.fr/page/35556/nous-contacter/" id="ip16yo">Demander une étude personnalisée</a>
+</section>
+<p class="hint" id="i2lab5">Simulation indicative pour les versements 2026. Le calcul utilise, à titre provisoire, un barème progressif simplifié qui doit être confirmé pour l’imposition des revenus 2026. Les données sont calculées localement dans votre navigateur.
+  </p>
+</main>
+<script>
+(()=>{
+'use strict';
+const root=document.getElementById('mp-per');
+const el=id=>root.querySelector('#'+id);
+const number=id=>Math.max(0,Number(el(id)?.value)||0);
+const money=n=>Math.round(n).toLocaleString('fr-FR')+' €';
+const set=(id,v)=>{el(id).textContent=v};
+const rates=[0,0.11,0.30,0.41,0.45];
+// Barème indicatif, à confirmer pour l'imposition des revenus 2026.
+const limits=[11600,29579,84577,181917];
+function tax(income,parts){let quotient=Math.max(0,income)/parts,prev=0,t=0;for(let i=0;i<limits.length;i++){t+=Math.max(0,Math.min(quotient,limits[i])-prev)*rates[i];prev=limits[i]}t+=Math.max(0,quotient-prev)*rates[4];return t*parts}
+const ids=['p26-3','p23-3','p24-3','p25-3'];
+const spouseIds=['s26-3','s23-3','s24-3','s25-3'];
+function calculate(){
+const couple=el('status-3').value==='couple';
+el('spouse-3').hidden=!couple;
+const mode=el('goalMode-2').value;
+el('goalPaymentBox-2').hidden=mode!=='payment';el('goalSavingBox-2').hidden=mode!=='saving';
+const buckets=ids.map((id,i)=>number(id)+(couple?number(spouseIds[i]):0));
+const total=buckets.reduce((a,b)=>a+b,0),already=number('already-3');
+const remaining=Math.max(0,total-already);
+const income=number('income-3'),parts=number('parts-3');
+const valid=parts>=1&&Number.isFinite(parts);
+const base=valid?tax(income,parts):0;
+const savingFor=payment=>Math.max(0,base-tax(Math.max(0,income-payment),parts));
+let payment=remaining,warning='';
+if(mode==='payment'){payment=Math.min(remaining,number('goalPayment-2'));if(number('goalPayment-2')>remaining)warning='Le versement demandé dépasse le plafond restant : il a été plafonné pour cette simulation.'}
+if(mode==='saving'){
+ const target=number('goalSaving-2'),maxSaving=savingFor(remaining);
+ if(target>=maxSaving){payment=remaining;if(target>maxSaving)warning='L’économie d’impôt cible dépasse le maximum estimé avec le plafond disponible.'}
+ else {let low=0,high=remaining;for(let i=0;i<55;i++){const mid=(low+high)/2;if(savingFor(mid)<target)low=mid;else high=mid}payment=high}
+}
+const after=valid?tax(Math.max(0,income-payment),parts):0;
+const saving=valid?Math.max(0,base-after):0;
+set('remaining-2',money(remaining));set('payment-2',money(payment));set('saving-2',valid?money(saving):'—');
+set('taxBefore-2',valid?money(base):'—');set('taxAfter-2',valid?money(after):'—');set('netCost-2',valid?money(payment-saving):'—');
+const pct=payment>0?Math.min(100,100*saving/payment):0;
+el('benefitBar-2').style.width=pct.toFixed(1)+'%';set('benefitPercent-2',pct.toFixed(1).replace('.',',')+' %');
+set('validation-2',valid?'':'Indiquez un nombre de parts fiscales supérieur ou égal à 1.');
+set('goalWarning-2',warning);
+set('detail-2','Simulation indicative : '+money(payment)+' de versement complémentaire, pour '+money(saving)+' d’économie d’impôt théorique.');
+// Imputation simplifiée : plafond de l'année en premier, puis reliquats les plus anciens.
+let used=Math.min(total,already+payment),used2026=Math.min(used,buckets[0]);used-=used2026;
+let used2023=Math.min(used,buckets[1]);used-=used2023;
+set('expiry-2',buckets[1]>used2023?'Reliquat 2023 potentiellement non utilisé : '+money(buckets[1]-used2023)+'. Il pourrait expirer à la fin de 2026, sous réserve des règles applicables.':'');
+}
+root.querySelectorAll('input,select').forEach(e=>{e.addEventListener('input',calculate);e.addEventListener('change',calculate)});
+el('print-2').addEventListener('click',()=>window.print());
+calculate();
+})();
+</script></body></html>
